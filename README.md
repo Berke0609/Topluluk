@@ -53,7 +53,7 @@
 * index.js oluşturulur
 * "databased.sql" oluşturulur - kodlar daha iyi görünür
 ** database ve tablolar oluşturulur
-* Terminalde server klasörü altında `touch index.js` ve `node index` komutları sayesinde `http://localhost:5000/` adresinde başlatılır
+* Terminalde server klasörü altında `cd server` `touch index.js` ve `node index` komutları sayesinde `http://localhost:5000/` adresinde başlatılır
 
 ### Database ile Server Bağlantısı
 
@@ -65,7 +65,7 @@
 * "Client" klasörü oluşturulur
 * Fragment, useState yapıları kullanılarak Input, List ve Edit component'leri oluşturulur.
 * App.js içine import edilmelidir.
-* Terminalde client klasörü altında `npm start`ile `http://localhost:3000/` adresinde site çalıştırılır.
+* Terminalde client klasörü altında `cd client` `npm start`ile `http://localhost:3000/` adresinde site çalıştırılır.
 
 ## Örnek Kod - Backend
 
