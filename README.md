@@ -127,7 +127,7 @@ const InputClub = () => {
 
 ## İletişim
 
-* [Berke Aygören](https://github.com/Berke0609) - [Gmail](berkeaygoren5@gmail)
-* [Fevzican Karakuş](https://github.com/f-karakus) - [Gmail](fevzican.karakus@gmail.com)
-* [Rafet Çırpan](https://github.com/cirpanrafet) - [Gmail](cirpanrafet@gmail.com)
+* [Berke Aygören](https://github.com/Berke0609) - [Gmail](mailto:berkeaygoren5@gmail.com)
+* [Fevzican Karakuş](https://github.com/f-karakus) - [Gmail](mailto:fevzican.karakus@gmail.com)
+* [Rafet Çırpan](https://github.com/cirpanrafet) - [Gmail](mailto:cirpanrafet@gmail.com)
 
