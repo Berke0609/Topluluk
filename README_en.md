@@ -2,7 +2,7 @@
 # HACETTEPE TOPLULUK
 ---
 
-- Bu bir PostgreSQL Express React Node.js (PERN) Stack projesidir.
+- This is a PostgreSQL Express React Node.js (PERN) Stack project.
 - **Frontend**: React, **Backend**: Node.js, **Database**: PostgreSQL
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Berke0609/Topluluk?style=plastic)
@@ -12,62 +12,62 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/Berke0609/Topluluk?style=plastic)
 
 
-## Genel Bakış
+## Overview
 
 ### Backend
-* PostgreSQL yüklenmiş ve çalışır olmalıdır. Bu proje için Windows 11 64bit PostgreSQL 15 kullanıldı.
-* Postman, frontend hazır edilmeden önce backend'i test etmek için kullanılabilir.
+* PostgreSQL must be installed and running. Windows 11 64bit PostgreSQL 15 was used for this project.
+* Postman can be used to test the backend before the frontend is ready.
 
 ### Frontend
 
-* React bir kullanıcı girdi alanı ve değerin tabloda gösterilmesiyle ilgilenir. Kullanıcı girdiler üzerinde düzenleme yapabilir.
-* Javascript XLM (JSX) ve HTML: Bir web sitesinin merkezinde HTML dökümanları vardır. Web tarayıcınız bu dökümanları okur ve bilgisayarınızın veya kullandığınız diğer elektronik cihazların ekranına web sayfaları olarak yansıtır. Bu işlem esnasında tarayıcılar Document Oriented Model (DOM) adında, sayfaların nasıl düzenlendiği ile ilgili bir yapı oluşturur. JSX kullanarak DOM’u güncellemek inanılmaz bir web sitesi performans artışı ve geliştirme verimliliğini beraberinde getirir.
-(Bkz. [JavaScript XML (JSX)](https://reactjs.org/docs/introducing-jsx.html), [React Fragments](https://reactjs.org/docs/fragments.html))
+* React deals with a user input field and displaying the value in a table. The user can edit and delete inputs.
+* Javascript XLM (JSX) and HTML: At the heart of a website are HTML documents. Your web browser reads these documents and displays them as web pages on the screen of your computer or other electronic devices you use. During this process, browsers create a structure called Document Oriented Model (DOM) about how pages are arranged. Updating the DOM using JSX brings an incredible website performance boost and development efficiency.
+(see. [JavaScript XML (JSX)](https://reactjs.org/docs/introducing-jsx.html), [React Fragments](https://reactjs.org/docs/fragments.html))
 
-## Teknolojiler - Backend
+## Technologies - Backend
 
 * [PostgreSQL v15](https://www.postgresql.org/)
 * [Express.js middleware v4](https://expressjs.com/)
 * [Node.js v18](https://nodejs.org/en/)
-* [Postman API](https://www.postman.com/downloads/) Frontend simulasyonu için
+* [Postman API](https://www.postman.com/downloads/) to simulate frontend
 
-## Teknolojiler - Frontend
+## Technologies - Frontend
 
 * [React framework v18](https://reactjs.org/)
 * [Bootstrap v5](https://getbootstrap.com/)
 
-## Ön kurulum
+## Pre-Setup
 
-* Gerekli tüm bileşenler indirilmelidir.
-* Javascript ve React ile ilgili temel bir bilgiye sahip olunmalıdır.
-* Restful API (CRUD yapısı) nasıl çalıştığına dair bilgi sahibi olursanız bu size ayrıca yardımcı olur.
+* All necessary components must be downloaded.
+* should have a basic knowledge of Javascript and React.
+* This will also help you if you have knowledge of how the Restful API (CRUD app) works.
 
-## Genel Bakış Diyagramı
+## Overview Diagram
 
 ![diagram](/docs/pern_stack_diagram.drawio.png)
 
-## Server Kurulumu
+## Build Our Server
 
-* "server" klasörü oluşturulur.
-* Bağımlılıklarımız indirilir.  `nmp i express pg cors`
-* "index.js" oluşturulur.
-* "databased.sql" oluşturulur - kodlar daha iyi görünür- .
-    * database ve tablolar oluşturulur.
-* Terminalde server klasörü altında `cd server` `touch index.js` ve `node index` komutları sayesinde `http://localhost:5000/` adresinde başlatılır.
+* "server" folder is created.
+* dependencies are downloaded  `nmp i express pg cors`
+* "index.js" created
+* "databased.sql" created - codes look better -
+    * database ve tablolar oluşturulur
+* In terminal under server folder thanks to commands`cd server` `touch index.js` and `node index`  server starts at `http://localhost:5000/`
 
-### Database ile Server Bağlantısı
+### Connect Our Database and Server
 
-* PostgreSQL kütüphanesi "db.js" script dosyası ile bağlanır. 
-* "index.js" içinde Routes kısımları yazılarak sorgu komutlarıyla CRUD işlem yeteneği kazandırılır - POST, GET, PUT, DELETE etc. 
+* The PostgreSQL library is linked with the "db.js" script file. 
+* Routes sections are written in "index.js" and CRUD processing capability is gained with query commands - POST, GET, PUT, DELETE etc. 
 
-## Client Kurulumu
+## Set Up the Client Side
 
-* "Client" klasörü oluşturulur.
-* Fragment, useState yapıları kullanılarak Input, List ve Edit component'leri oluşturulur.
-* App.js içine import edilmelidir.
-* Terminalde client klasörü altında `cd client` `npm start`ile `http://localhost:3000/` adresinde site çalıştırılır.
+* "Client" folder is created.
+* Input, List and Edit components are created using Fragment, useState structures.
+* It should be imported into "app.js".
+* The site is run at the address of `http://localhost:3000/` with `cd client` `npm start` under the client folder in the terminal.
 
-## Örnek Kod - Backend
+## Code Examples - Backend
 
 ```javascript
 //ROUTES//
@@ -87,7 +87,7 @@ app.post("/clubss", async(req,res) => {
 });
 ```
 
-## Örnek Kod - Frontend 
+## Code Examples - Frontend 
 
 ```javascript
 const InputClub = () => {
@@ -111,15 +111,16 @@ const InputClub = () => {
     }
 ```
 
-## Ekran Görüntüleri
+## Screenshots
+
 * Database
 ![database](/docs/database.png)
-* Postman test aşaması
+* Postman testing
 ![postman](/docs/postman_test.png)
 * Console log
 ![Console](/docs/LOCALHOST3000.jpg)
 
-## Genel Araçlar / Referanslar
+## General Tools / References
 
 * [PERN Stack Course - Postgres, Express, React, and Node](https://www.youtube.com/watch?v=ldYcgPKEZC8)
 * [React documentation](https://reactjs.org/docs/getting-started.html)
@@ -127,8 +128,9 @@ const InputClub = () => {
 * [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
 * [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 * [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+* [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
 
-## İletişim
+## Contact
 
 * <a href="https://github.com/Berke0609" target="_blank">**Berke Aygören**</a> - [Gmail](mailto:berkeaygoren5@gmail.com)
 * <a href="https://github.com/f-karakus" target="_blank">**Fevzican Karakuş**</a> - [Gmail](mailto:fevzican.karakus@gmail.com)
