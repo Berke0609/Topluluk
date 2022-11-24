@@ -52,7 +52,7 @@
 * Bağımlılıklarımız indirilir  `nmp i express pg cors`
 * index.js oluşturulur
 * "databased.sql" oluşturulur - kodlar daha iyi görünür
-** database ve tablolar oluşturulur
+    * database ve tablolar oluşturulur
 * Terminalde server klasörü altında `cd server` `touch index.js` ve `node index` komutları sayesinde `http://localhost:5000/` adresinde başlatılır
 
 ### Database ile Server Bağlantısı
@@ -130,7 +130,3 @@ const InputClub = () => {
 * <a href="https://github.com/Berke0609" target="_blank">**Berke Aygören**</a> - [Gmail](mailto:berkeaygoren5@gmail.com)
 * <a href="https://github.com/f-karakus" target="_blank">**Fevzican Karakuş**</a> - [Gmail](mailto:fevzican.karakus@gmail.com)
 * <a href="https://github.com/cirpanrafet" target="_blank">**Rafet Çırpan**</a> - [Gmail](mailto:cirpanrafet@gmail.com)
-
-<a href="https://github.com/Berke0609" target="_blank">**Berke Aygören**</a>
-<a href="https://github.com/f-karakus" target="_blank">**Fevzican Karakuş**</a>
-<a href="https://github.com/cirpanrafet" target="_blank">**Rafet Çırpan**</a>
