@@ -22,19 +22,19 @@
 
 * React deals with a user input field and displaying the value in a table. The user can edit and delete inputs.
 * Javascript XLM (JSX) and HTML: At the heart of a website are HTML documents. Your web browser reads these documents and displays them as web pages on the screen of your computer or other electronic devices you use. During this process, browsers create a structure called Document Oriented Model (DOM) about how pages are arranged. Updating the DOM using JSX brings an incredible website performance boost and development efficiency.
-(see. [JavaScript XML (JSX)](https://reactjs.org/docs/introducing-jsx.html), [React Fragments](https://reactjs.org/docs/fragments.html))
+(see. <a href="https://reactjs.org/docs/introducing-jsx.html" target="_blank"> JavaScript XML (JSX) </a>, <a href="https://reactjs.org/docs/fragments.html" target="_blank"> React Fragments </a>)
 
 ## Technologies - Backend
 
-* [PostgreSQL v15](https://www.postgresql.org/)
-* [Express.js middleware v4](https://expressjs.com/)
-* [Node.js v18](https://nodejs.org/en/)
-* [Postman API](https://www.postman.com/downloads/) to simulate frontend
+* <a href="https://www.postgresql.org/" target="_blank">PostgreSQL v15</a>
+* <a href="https://expressjs.com/" target="_blank">Express.js middleware v4</a>
+* <a href="https://nodejs.org/en/" target="_blank">Node.js v18</a>
+* <a href="https://www.postman.com/" target="_blank">Postman API</a>  to simulate frontend
 
 ## Technologies - Frontend
 
-* [React framework v18](https://reactjs.org/)
-* [Bootstrap v5](https://getbootstrap.com/)
+* <a href="https://reactjs.org/" target="_blank">React framework v18</a>
+* <a href="https://getbootstrap.com/" target="_blank">Bootstrap v5</a>
 
 ## Pre-Setup
 
@@ -122,13 +122,13 @@ const InputClub = () => {
 
 ## General Tools / References
 
-* [PERN Stack Course - Postgres, Express, React, and Node](https://www.youtube.com/watch?v=ldYcgPKEZC8)
-* [React documentation](https://reactjs.org/docs/getting-started.html)
-* [js-beautify for VS Code](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)
-* [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
-* [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-* [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-* [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
+* <a href="https://www.youtube.com/watch?v=ldYcgPKEZC8" target="_blank">PERN Stack Course - Postgres, Express, React, and Node</a>
+* <a href="https://reactjs.org/docs/getting-started.html" target="_blank">React documentation</a>
+* <a href="https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify" target="_blank">JS-beautify for VS Code</a>
+* <a href="https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets" target="_blank">ES7+ React/Redux/React-Native snippets</a>
+* <a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode" target="_blank">Prettier - Code formatter</a>
+* <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer" target="_blank">Live Server</a>
+* <a href="https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced" target="_blank">Markdown Preview Enhanced</a>
 
 ## Contact
 
