@@ -7,6 +7,8 @@ const pool = require("./db");
 app.use(cors());
 app.use(express.json()); //req.body
 
+// ROUTES //
+
 //Create a Club
 app.post("/clubss", async(req,res) => {
     try {
