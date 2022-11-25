@@ -49,7 +49,7 @@
 ## Server Kurulumu
 
 * "server" klasörü oluşturulur.
-* Bağımlılıklarımız indirilir.  `nmp i express pg cors`
+* Bağımlılıklarımız indirilir.  `npm i express pg cors`
 * "index.js" oluşturulur.
 * "databased.sql" oluşturulur - kodlar daha iyi görünür- .
     * database ve tablolar oluşturulur.
