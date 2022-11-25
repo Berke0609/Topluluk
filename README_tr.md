@@ -16,7 +16,7 @@
 
 ### Backend
 * PostgreSQL yüklenmiş ve çalışır olmalıdır. Bu proje için Windows 11 64bit PostgreSQL 15 kullanıldı.
-* Postman, frontend hazır edilmeden önce backend'i test etmek için kullanılabilir.
+* Postman, API'leri test etmeye ve değiştirmeye yönelik bir API(Uygulama Programlama Arayüzü) geliştirme platformudur.
 
 ### Frontend
 
@@ -26,15 +26,15 @@
 
 ## Teknolojiler - Backend
 
-* <a href="https://www.postgresql.org/" target="_blank" rel="noopener"><span>PostgreSQL v15</span> </a>
-* <a href="https://expressjs.com/" target="_blank">Express.js middleware v4</a>
-* <a href="https://nodejs.org/en/" target="_blank">Node.js v18</a>
-* <a href="https://www.postman.com/" target="_blank">Postman API</a>  to simulate frontend
+* <a href="https://www.postgresql.org/" target="_blank" rel="noopener"><span>PostgreSQL v15</span> </a> - Veritabanı yönetimi için
+* <a href="https://expressjs.com/" target="_blank">Express.js middleware v4</a> - Node.js ile RESTful API'ler oluşturmak için
+* <a href="https://nodejs.org/en/" target="_blank">Node.js v18</a> - Server tarafını oluşturmak için
+* <a href="https://www.postman.com/" target="_blank">Postman API</a> - Frontend simulasyonu için
 
 ## Teknolojiler - Frontend
 
-* <a href="https://reactjs.org/" target="_blank">React framework v18</a>
-* <a href="https://getbootstrap.com/" target="_blank">Bootstrap v5</a>
+* <a href="https://reactjs.org/" target="_blank">React framework v18</a> - Kullanıcı arayüzleri oluşturmak için
+* <a href="https://getbootstrap.com/" target="_blank">Bootstrap v5</a> - Web sayfası tasarımlarını geliştirmek için
 
 ## Ön kurulum
 
@@ -48,23 +48,29 @@
 
 ## Server Kurulumu
 
-* "server" klasörü oluşturulur.
+* "server" klasörü oluşturulur. (bkz. [server](/server))
 * Bağımlılıklarımız indirilir.  `npm i express pg cors`
-* "index.js" oluşturulur.
-* "databased.sql" oluşturulur - kodlar daha iyi görünür- .
-    * database ve tablolar oluşturulur.
+    * Express, Node.js tabanlı bir web uygulama sunucu çatısıdır.
+    * `pg` Node.js için engellenmeyen PostgreSQL istemcisidir.
+    * Cors ise web uygulamasının farklı kaynaklardan HTTP istekleri gelmesine izin verir. 
+* "index.js" oluşturulur. (bkz. [index.js](/server/index.js))
+* "database.sql" oluşturulur (bkz. [database](/server/database.sql))
+    * Veritabanı ve tabloların kaynak kodlarını içerir.
 * Terminalde server klasörü altında `cd server` `touch index.js` ve `node index` komutları sayesinde `http://localhost:5000/` adresinde başlatılır.
 
 ### Database ile Server Bağlantısı
 
-* PostgreSQL kütüphanesi "db.js" script dosyası ile bağlanır. 
+* PostgreSQL kütüphanesi "db.js" script dosyası ile bağlanır. (bkz. [db.js](/server/db.js))
+    * Bu kısımda veritabanı bilgileri tanımlanır.
 * "index.js" içinde Routes kısımları yazılarak sorgu komutlarıyla CRUD işlem yeteneği kazandırılır - POST, GET, PUT, DELETE etc. 
 
 ## Client Kurulumu
 
-* "Client" klasörü oluşturulur.
+* "Client" klasörü oluşturulur. (bkz. (bkz. [Client](/client))
 * Fragment, useState yapıları kullanılarak Input, List ve Edit component'leri oluşturulur.
-* "app.js" içine import edilmelidir.
+    * Fragmentler, Dom'a ekstra düğüm eklemeden bir alt elemanlar listesini gruplandırmanıza izin verir.
+    * useState fonksiyonu size herhangi bir sınıf oluşturmadan state ve diğer React özelliklerini kullanmanıza izin verir.
+* Oluşturulan component'ler "App.js" içine import edilmelidir. (bkz. (bkz. [App.js](/client/src/App.js))
 * Terminalde client klasörü altında `cd client` `npm start`ile `http://localhost:3000/` adresinde site çalıştırılır.
 
 ## Örnek Kod - Backend
