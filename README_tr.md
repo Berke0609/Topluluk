@@ -26,7 +26,7 @@
 
 ## Teknolojiler - Backend
 
-* <a href="https://www.postgresql.org/" target="_blank">PostgreSQL v15</a>
+* <a href="https://www.postgresql.org/" target="_blank" rel="noopener"><span>PostgreSQL v15</span> </a>
 * <a href="https://expressjs.com/" target="_blank">Express.js middleware v4</a>
 * <a href="https://nodejs.org/en/" target="_blank">Node.js v18</a>
 * <a href="https://www.postman.com/" target="_blank">Postman API</a>  to simulate frontend
