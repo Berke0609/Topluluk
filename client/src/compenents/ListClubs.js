@@ -46,8 +46,8 @@ const ListClubs = () => {
         <thead>
                     <tr class="spacer">
                         <th>Topluluk Adı</th>
-                        <th>Topluluk Düzenle</th>
-                        <th>Topluluk Sil</th>
+                        <th>Topluluk Adını Düzenle</th>
+                        <th>Topluluk Adını Sil</th>
                     </tr>
                 </thead>
             <tbody>
