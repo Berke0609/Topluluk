@@ -7,8 +7,6 @@ const pool = require("./db");
 app.use(cors());
 app.use(express.json()); //req.body
 
-//ROUTES//
-
 //Create a Club
 app.post("/clubss", async(req,res) => {
     try {
@@ -32,8 +30,8 @@ app.get("/clubss", async(req, res) => {
         console.error(err.message);
     }
 });
-//Get a Club
 
+//Get a Club
 app.get("/clubss/:id", async(req, res) => {
     try {
         const { id } = req.params;
@@ -47,7 +45,6 @@ app.get("/clubss/:id", async(req, res) => {
 });
 
 //Update a Club
-
 app.put("/clubss/:id", async(req, res) => {
     try {
         const { id } = req.params;
@@ -62,7 +59,6 @@ app.put("/clubss/:id", async(req, res) => {
 })
 
 //Delete a Club
-
 app.delete("/clubss/:id" , async(req, res) => {
     try {
         const { id } = req.params;
@@ -75,7 +71,6 @@ app.delete("/clubss/:id" , async(req, res) => {
     }
 
 })
-
 
 //Create a Event
 app.post("/events", async(req,res) => {
@@ -100,8 +95,8 @@ app.get("/events", async(req, res) => {
         console.error(err.message);
     }
 });
-//Get a Event
 
+//Get a Event
 app.get("/events/:id", async(req, res) => {
     try {
         const { id } = req.params;
@@ -128,10 +123,7 @@ app.put("/events/:id", async(req, res) => {
     }
 })
 
-
-
 //Delete a Event
-
 app.delete("/events/:id" , async(req, res) => {
     try {
         const { id } = req.params;
@@ -144,8 +136,6 @@ app.delete("/events/:id" , async(req, res) => {
     }
 
 })
-
-
 
 
 app.listen(5000, () => {
