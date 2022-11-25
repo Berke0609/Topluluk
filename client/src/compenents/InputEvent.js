@@ -39,7 +39,7 @@ const InputEvent = () => {
                   onChange={(e) => setEventdetails(e.target.value)}
                   type="text"
                   className="form-control"
-                  placeholder="Etkinlik Detayları"
+                  placeholder="Etkinlik Detaylarını Belirtiniz:"
                 />
               </div>
               <div className="col">
@@ -59,7 +59,7 @@ const InputEvent = () => {
                   onChange={(e) => setEventdate(e.target.value)}
                   className="form-control"
                   type="text"
-                  placeholder="Etkinlik Tarihi Giriniz: GG.AA.YYYY AA:AA"
+                  placeholder="Etkinlik Tarihi Giriniz: GG.AA.YYYY SS:DD"
                 />
               </div>
               <button
