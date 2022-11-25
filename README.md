@@ -44,7 +44,7 @@
 
 ## Overview Diagram
 
-![diagram](/docs/pern_stack_diagram.drawio.png)
+![diagram](/docs/pern_stack_diagramv2.drawio.png)
 
 ## Build Our Server
 
