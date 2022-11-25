@@ -64,7 +64,7 @@
 
 * "Client" klasörü oluşturulur.
 * Fragment, useState yapıları kullanılarak Input, List ve Edit component'leri oluşturulur.
-* App.js içine import edilmelidir.
+* "app.js" içine import edilmelidir.
 * Terminalde client klasörü altında `cd client` `npm start`ile `http://localhost:3000/` adresinde site çalıştırılır.
 
 ## Örnek Kod - Backend
