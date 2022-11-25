@@ -31,8 +31,10 @@ const InputClub = () => {
                 className = "form-control"
                 placeholder="Topluluk Adı Giriniz"
                 value={name} onChange = {e => setName(e.target.value)}/>
-                <button className = "gradient btn" onclick="">Ekle</button>
-                           
+
+                <button className = "gradient btn">
+                Ekle
+                </button>          
             </form>
         </Fragment>
     )
