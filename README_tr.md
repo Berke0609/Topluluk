@@ -133,4 +133,4 @@ const InputClub = () => {
 
 * <a href="https://github.com/Berke0609" target="_blank">**Berke Aygören**</a> - [Gmail](mailto:berkeaygoren5@gmail.com)
 * <a href="https://github.com/f-karakus" target="_blank">**Fevzican Karakuş**</a> - [Gmail](mailto:fevzican.karakus@gmail.com)
-* <a href="https://github.com/cirpanrafet" target="_blank">**Rafet Çırpan**</a> - [Gmail](mailto:cirpanrafet@gmail.com)
+* <a href="https://github.com/cirpanrafet" target="_blank">**Rafet ÇIRPAN**</a> - [Gmail](mailto:cirpanrafet@gmail.com)
