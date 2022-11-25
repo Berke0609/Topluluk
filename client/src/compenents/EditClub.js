@@ -23,7 +23,7 @@ const EditClub = ({club}) => {
 
     return ( 
     <Fragment>
-    <button type="button" class="btn btn-warning" data-toggle="modal" data-target={`#id${club.clubs_id}`}>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target={`#id${club.clubs_id}`}>
         Düzenle
     </button>
     {/*
@@ -38,7 +38,7 @@ const EditClub = ({club}) => {
     
           
           <div class="modal-header">
-            <h4 class="modal-title">Edit Club</h4>
+            <h4 class="modal-title">Topluluk Adını Düzenle</h4>
             <button type="button" class="close" data-dismiss="modal" onClick = {() => setName(club.name)}>&times;</button>
           </div>
     
@@ -50,8 +50,8 @@ const EditClub = ({club}) => {
     
           
           <div class="modal-footer">
-            <button type="button" class="btn btn-warning" data-dismiss="modal" onClick = {e => updateName(e)} >Edit</button>
-            <button type="button" class="btn btn-danger" data-dismiss="modal" onClick = {() => setName(club.name)}>Close</button>
+            <button type="button" class="btn btn-warning" data-dismiss="modal" onClick = {e => updateName(e)} >Düzenle</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal" onClick = {() => setName(club.name)}>Kapat</button>
           </div>
     
         </div>
