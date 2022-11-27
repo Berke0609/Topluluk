@@ -49,6 +49,7 @@
 ## Build Our Server
 
 * "server" folder is created. (see [server](/server))
+* `npm init`
 * dependencies are downloaded.  `npm i express pg cors`
     * Express is a Node.js based web application server framework.
     * `pg` is a non-blocking PostgreSQL client for Node.js.
